@@ -42,10 +42,12 @@ def monitor_flights(lat, lon, bound):
     print ' Bounds: '+str_bounds+' Full count: '+str(flights["full_count"])
     print '-'*50
     for hash_value, data in flights.items():
-        if isinstance(data, list):
+        if isinstance(data, list) and len(data)>=13:
             depAirport, arrAirport = data[11], data[12]
             flightNumber, acType = data[13], data[8]
+            distance = FLUT.distance(lat, data[1])
             print "- "+flightNumber+" | "+depAirport+"-->"+arrAirport+" | Aircraft: "+acType
+            print "  _ distance from location: "+str(distance)
     print '-'*50
     
         
