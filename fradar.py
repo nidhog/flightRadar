@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 """
 Flight Radar
-Monitor flights using flightradar24
+Monitor flights using flightradar24 and Google Geocoding API
 
 Created on Fri Jan 16 10:13:32 2015
 
 @author: ielouafiq
 """
+
 import time
 import requests
 import futilities as FLUT
+from geopy.geocoders import Nominatim
+
 default_url = FLUT.default_url
 
 # logging settings
@@ -47,9 +50,12 @@ def monitor_flights(lat, lon, bound):
     
         
 if __name__=="__main__":
+    geolocator = Nominatim()
     try:
-        latitude, longitude, bound = [long(entry) for entry in 
-        raw_input("Enter Latitude, Longitude and Bound seperated by a space:\n").strip().split()]
+        location = geolocator.geocode(raw_input("Enter location here: "))
+        print "- Chosen location:", location.address
+        latitude, longitude,  = location.latitude, location.longitude
+        bound = int(raw_input("Enter max distance from boundaries: "))
     except Exception, e:
         logging.error(e)
         logging.warning("Used default (lat, lon, bound)")
