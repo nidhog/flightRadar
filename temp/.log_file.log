@@ -1,9 +1,23 @@
-01-19 11:33 root         DEBUG    
+01-20 14:58 root         DEBUG    
 
-   =====  ===== STARTED :fradar.py ON :11:33:26.858000   =====  =====
-01-19 11:33 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
-01-19 11:33 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=44.6258981,42.6258981,6.05250227755,8.05250227755 HTTP/1.1" 200 None
-01-19 11:33 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
-01-19 11:33 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=44.6258981,42.6258981,6.05250227755,8.05250227755 HTTP/1.1" 200 None
-01-19 11:33 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
-01-19 11:33 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=44.6258981,42.6258981,6.05250227755,8.05250227755 HTTP/1.1" 200 None
+   =====  ===== STARTED :fradar.py ON :14:58:49.144000   =====  =====
+01-20 14:58 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:58 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 14:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 14:59 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 15:00 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 15:00 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
+01-20 15:00 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): arn.data.fr24.com
+01-20 15:00 requests.packages.urllib3.connectionpool DEBUG    "GET /zones/fcgi/feed.js?bounds=60.9132694,58.9132694,9.7391112,11.7391112 HTTP/1.1" 200 None
