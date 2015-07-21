@@ -6,13 +6,15 @@ Created on Mon Jan 19 10:23:57 2015
 
 @author: ielouafiq
 """
+
 # Log File location
-LOG_FILE 	 = "temp\.log_file.log"
+LOG_FILE 	 = config.LOG_FILE
 # default values for url, lat, lon, bound
-default_url = "http://arn.data.fr24.com/zones/fcgi/feed.js?"
-default_latitude = 43
-default_longitude = 7
-default_bound = 1
+default_url = config.default_url
+default_latitude = config.default_latitude
+default_longitude = config.default_longitude
+default_bound = config.default_bound
+
 def distance(lat1, lat2):
     """Return distance in miles between two lats
     """

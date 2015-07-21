@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Flight Radar
-Monitor flights using flightradar24 and Google Geocoding API
+Monitor flights using requests to flightradar24 and Google Geocoding API
 
 Created on Fri Jan 16 10:13:32 2015
 
