@@ -10,7 +10,7 @@ config = {
 	'download_url':'https://github.com/nidhog/flightradar/archive/flightradar.zip',
 	'author_email':'i.elouafiq@gmail.com',
 	'version':'0.1',
-	'install_requires':['nose'],
+	'install_requires':['nose', 'geopy', 'requests'],
 	'packages':['flightRadar'],
 	'scripts':[],
 	'name':'Flight Radar'
